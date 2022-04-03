@@ -5,8 +5,8 @@ import {Task} from '../models/Task';
 export class TestData {
 
   static categories: Category[] = [
-    {id: 1, title: 'Work'},
-    {id: 2, title: 'Family'},
+    {id: 1, title: 'Family'},
+    {id: 2, title: 'Work'},
     {id: 3, title: 'Study'},
     {id: 4, title: 'Rest'},
     {id: 5, title: 'Sport'},
