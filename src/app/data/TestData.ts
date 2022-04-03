@@ -28,7 +28,7 @@ export class TestData {
   static tasks: Task[] = [
     {
       id: 1,
-      title: 'Залить бензин полный бак',
+      title: 'Fill gas',
       priority: TestData.priorities[2],
       completed: false,
       category: TestData.categories[9],
@@ -44,14 +44,14 @@ export class TestData {
     },
     {
       id: 3,
-      title: 'Убраться у себя в комнате, полить растения',
+      title: 'Clean room',
       priority: TestData.priorities[2],
       completed: true,
       category: TestData.categories[1]
     },
     {
       id: 4,
-      title: 'Сходить в парк с семьей, пригласить друзей',
+      title: 'Take a walk with friends',
       priority: TestData.priorities[1],
       completed: false,
       category: TestData.categories[1],
@@ -59,13 +59,13 @@ export class TestData {
     },
     {
       id: 5,
-      title: 'Найти и выучить учебник по квантовой физике',
+      title: 'Study Angular',
       completed: false,
       category: TestData.categories[2]
     },
     {
       id: 6,
-      title: 'Сходить на семинар по программированию',
+      title: 'Study RxJS',
       priority: TestData.priorities[1],
       completed: true,
       category: TestData.categories[2],
@@ -73,20 +73,20 @@ export class TestData {
     },
     {
       id: 7,
-      title: 'Найти билеты в Турцию, выбрать отель',
+      title: 'Choose a hotel',
       priority: TestData.priorities[2],
       completed: false,
       category: TestData.categories[3]
     },
     {
       id: 8,
-      title: 'Приготовить ужин для всей семьи (семга с картошкой)',
+      title: 'Cook some dish',
       completed: false,
       category: TestData.categories[5]
     },
     {
       id: 9,
-      title: 'Подтянуться 10 раз',
+      title: '10 pull-ups',
       priority: TestData.priorities[2],
       completed: false,
       category: TestData.categories[4],
@@ -94,19 +94,19 @@ export class TestData {
     },
     {
       id: 10,
-      title: 'Пробежать 100 м',
+      title: 'Run 2 km',
       priority: TestData.priorities[0],
       completed: true,
       category: TestData.categories[4]
     },
     {
       id: 11,
-      title: 'Организовать детский праздник ',
+      title: 'Some party',
       completed: false
     },
     {
       id: 12,
-      title: 'Сходить на лекцию "Как научиться программировать на Java"',
+      title: 'Сходить на лекцию "Как научиться программировать на React"',
       priority: TestData.priorities[1],
       completed: false,
       category: TestData.categories[2]
@@ -127,13 +127,13 @@ export class TestData {
     },
     {
       id: 15,
-      title: 'Сдать экзамен по Java',
+      title: 'Pass SoftServe exam',
       priority: TestData.priorities[2],
       completed: true
     },
     {
       id: 16,
-      title: 'Положить 100 000 р в банк на депозит',
+      title: 'Положить 1 000 000 в банк на депозит',
       priority: TestData.priorities[3],
       completed: false,
       category: TestData.categories[6]
@@ -155,7 +155,7 @@ export class TestData {
     },
     {
       id: 19,
-      title: 'Сравнить новый айпад с самсунгом',
+      title: 'Compare Apple vs Samsung',
       priority: TestData.priorities[0],
       completed: false,
       category: TestData.categories[7],
@@ -163,7 +163,7 @@ export class TestData {
     },
     {
       id: 20,
-      title: 'Футбол с сотрудниками',
+      title: 'Football',
       priority: TestData.priorities[0],
       completed: false,
       category: TestData.categories[4],
