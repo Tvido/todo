@@ -36,21 +36,13 @@ export class TestData {
     },
     {
       id: 2,
-      title: 'Передать отчеты начальнику управления',
-      priority: TestData.priorities[0],
-      completed: false,
-      category: TestData.categories[0],
-      date: new Date('2019-04-11')
-    },
-    {
-      id: 3,
       title: 'Clean room',
       priority: TestData.priorities[2],
       completed: true,
       category: TestData.categories[1]
     },
     {
-      id: 4,
+      id: 3,
       title: 'Take a walk with friends',
       priority: TestData.priorities[1],
       completed: false,
@@ -58,13 +50,13 @@ export class TestData {
       date: new Date('2019-08-17')
     },
     {
-      id: 5,
+      id: 4,
       title: 'Study Angular',
       completed: false,
       category: TestData.categories[2]
     },
     {
-      id: 6,
+      id: 5,
       title: 'Study RxJS',
       priority: TestData.priorities[1],
       completed: true,
@@ -72,20 +64,20 @@ export class TestData {
       date: new Date('2019-06-11')
     },
     {
-      id: 7,
+      id: 6,
       title: 'Choose a hotel',
       priority: TestData.priorities[2],
       completed: false,
       category: TestData.categories[3]
     },
     {
-      id: 8,
+      id: 7,
       title: 'Cook some dish',
       completed: false,
       category: TestData.categories[5]
     },
     {
-      id: 9,
+      id: 8,
       title: '10 pull-ups',
       priority: TestData.priorities[2],
       completed: false,
@@ -93,68 +85,47 @@ export class TestData {
       date: new Date('2019-03-12')
     },
     {
-      id: 10,
+      id: 9,
       title: 'Run 2 km',
       priority: TestData.priorities[0],
       completed: true,
       category: TestData.categories[4]
     },
     {
-      id: 11,
+      id: 10,
       title: 'Some party',
       completed: false
     },
     {
-      id: 12,
-      title: 'Сходить на лекцию "Как научиться программировать на React"',
+      id: 11,
+      title: 'Visit Angular webinar',
       priority: TestData.priorities[1],
       completed: false,
       category: TestData.categories[2]
     },
     {
-      id: 13,
-      title: 'Купить продукты на неделю',
+      id: 12,
+      title: 'Bay some food',
       priority: TestData.priorities[2],
       completed: false,
       category: TestData.categories[5],
       date: new Date('2019-05-11')
     },
     {
-      id: 14,
-      title: 'Провести собрание по поводу всех проектов',
-      completed: true,
-      category: TestData.categories[0]
-    },
-    {
-      id: 15,
+      id: 13,
       title: 'Pass SoftServe exam',
       priority: TestData.priorities[2],
       completed: true
     },
     {
-      id: 16,
-      title: 'Положить 1 000 000 в банк на депозит',
+      id: 14,
+      title: 'Make 1 000 000 deposit',
       priority: TestData.priorities[3],
       completed: false,
       category: TestData.categories[6]
     },
     {
-      id: 17,
-      title: 'Попросить аванс на работе',
-      priority: TestData.priorities[2],
-      completed: false,
-      category: TestData.categories[6]
-    },
-    {
-      id: 18,
-      title: 'Сдать анализы, проверить гемоглобин',
-      priority: TestData.priorities[3],
-      completed: false,
-      category: TestData.categories[8],
-      date: new Date('2020-12-11')
-    },
-    {
-      id: 19,
+      id: 15,
       title: 'Compare Apple vs Samsung',
       priority: TestData.priorities[0],
       completed: false,
@@ -162,7 +133,7 @@ export class TestData {
       date: new Date('2019-10-11')
     },
     {
-      id: 20,
+      id: 16,
       title: 'Football',
       priority: TestData.priorities[0],
       completed: false,
