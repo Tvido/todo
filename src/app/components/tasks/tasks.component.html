@@ -21,15 +21,21 @@
           </tr>
           </thead>
           <tbody>
-          <tr *ngFor="let task of tasks; let idx = index">
+          <tr *ngFor="let task of tasks; let idx = index" [class.completed]="task.completed">
             <td>{{idx + 1}}</td>
             <td>{{task.title}}</td>
-            <td>{{task.category ? task.category.title : null}}</td>
-            <td>{{task.priority ? task.priority.title : null}}</td>
-            <td>{{task.date ? (task.date | date : 'dd.LL.yyyy HH:mm:ss') : null}}</td>
+            <td [class.novalue]="task.category">{{task.category ? task.category.title : '---'}}</td>
+            <td [class.novalue]="task.category">{{task.priority ? task.priority.title : '---'}}</td>
+            <td [class.novalue]="task.category">{{task.date ? (task.date | date : 'dd.LL.yyyy HH:mm:ss') : '---'}}</td>
             <td>
               <div class="form-check form-check-info text-start ps-0">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" [checked]="task.completed">
+                <input
+                  id="flexCheckDefault"
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  [checked]="task.completed"
+                (click)="toggleTaskComplete(task)">
               </div>
             </td>
           </tr>
