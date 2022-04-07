@@ -4,6 +4,7 @@
 
 .form-check:not(.form-switch) .form-check-input[type="checkbox"]:after {
   transition: opacity 0.25s ease-in-out;
+  font-family: "FontAwesome";
   width: 100%;
   height: 100%;
   color: #fff;
@@ -15,3 +16,49 @@
   opacity: 0;
 }
 
+.completed {
+  text-decoration: line-through;
+  collapse: #797979;
+  opacity: 0.7;
+}
+
+.novalue {
+  color: #b7b7b7;
+}
+
+table {
+  width: 100%;
+}
+
+.col-id {
+  width: 4%;
+  text-align: center;
+}
+
+.col-title {
+  width: 40%;
+}
+
+.col-priority {
+  width: 10%;
+}
+
+.col-category {
+  width: 10%;
+}
+
+.col-select {
+  width: 3%;
+}
+
+.col-operations {
+  width: 8%;
+}
+
+.col-color {
+  width: 1% !important;
+}
+
+.col-date {
+  width: 10%;
+}
