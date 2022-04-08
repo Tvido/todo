@@ -16,6 +16,10 @@
   opacity: 0;
 }
 
+.mat-form-field {
+  margin-right: 12px;
+}
+
 .completed {
   text-decoration: line-through;
   collapse: #797979;
@@ -40,19 +44,11 @@ table {
 }
 
 .col-priority {
-  width: 10%;
+  width: 12%;
 }
 
 .col-category {
-  width: 10%;
-}
-
-.col-select {
-  width: 3%;
-}
-
-.col-operations {
-  width: 8%;
+  width: 12%;
 }
 
 .col-color {
@@ -61,4 +57,8 @@ table {
 
 .col-date {
   width: 10%;
+}
+
+.col-status {
+  width: 1%;
 }
